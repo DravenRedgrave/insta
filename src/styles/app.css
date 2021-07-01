@@ -1,4 +1,4 @@
-/*! tailwindcss v2.2.2 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v2.2.4 | MIT License | https://tailwindcss.com */
 
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
@@ -328,16 +328,6 @@ pre {
 button {
   background-color: transparent;
   background-image: none;
-}
-
-/**
- * Work around a Firefox/IE bug where the transparent `button` background
- * results in a loss of the default `button` focus styles.
- */
-
-button:focus {
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focus-ring-color;
 }
 
 fieldset {
@@ -16176,6 +16166,38 @@ video {
   --tw-placeholder-opacity: 1;
 }
 
+.caret-white {
+  caret-color: #ffffff;
+}
+
+.caret-blue-medium {
+  caret-color: #005c98;
+}
+
+.caret-black-light {
+  caret-color: #262626;
+}
+
+.caret-black-faded {
+  caret-color: #00000059;
+}
+
+.caret-gray-base {
+  caret-color: #616161;
+}
+
+.caret-gray-background {
+  caret-color: #fafafa;
+}
+
+.caret-gray-primary {
+  caret-color: #dbdbdb;
+}
+
+.caret-red-primary {
+  caret-color: #ed4956;
+}
+
 .opacity-0 {
   opacity: 0;
 }
@@ -18071,6 +18093,10 @@ video {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content-none {
+  content: none;
 }
 
 @media (min-width: 640px) {
